@@ -18,6 +18,32 @@
 header{
   height: 80px;
   color: white;
+  line-height: 80px;
+}
+
+header h3{
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.sc-list-navbar ul li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.sc-list-navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.small-nav-hamb i{
+  color: #8f8e8c;
+  font-size: 20px;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .sc-jambotron{
