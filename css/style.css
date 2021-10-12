@@ -1,3 +1,4 @@
+/* GLOBAL */
 .sc-bg-blue{
   background-color: #2d3d4f;
 }
@@ -15,6 +16,12 @@
   margin: 0 auto;
 }
 
+h2{
+  font-weight: 600;
+}
+/* //GLOBAL */
+
+/* HEADER */
 header{
   height: 80px;
   color: white;
@@ -45,26 +52,48 @@ header h3{
   padding: 5px 10px;
   border-radius: 5px;
 }
+/* //HEADER */
 
+/* JUMBOTRON */
 .sc-jambotron{
   margin-top: 80px;
 }
 
 .sc-inner-jumbo{
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 800px;
   max-width: 80%;
   margin: 0 auto;
-  /* TOGLIERE ALTEZZA */
-  /* height: 300px; */
+  color: white;
 }
 
+.sc-inner-jumbo img{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.sc-inner-jumbo h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.cornice{
+  margin-bottom: 10px;
+}
+/* //JUMBOTRON */
+
+/* PORTFOLIO */
 .sc-box{
-  margin: 10px;
-  /* TOGLIERE ALTEZZA */
-  height: 300px;
+  margin: 10px auto;
   background-color: blue;
 }
+
+.sc-box img{
+  width: 100%;
+}
+/* //PORTFOLIO */
 
 .about{
   color: white;
