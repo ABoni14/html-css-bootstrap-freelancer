@@ -19,6 +19,18 @@
 h2{
   font-weight: 600;
 }
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
 /* //GLOBAL */
 
 /* HEADER */
@@ -31,18 +43,6 @@ header{
 header h3{
   line-height: 80px;
   font-weight: bold;
-}
-
-.sc-list-navbar ul li{
-  list-style: none;
-  display: inline-block;
-  padding-left: 10px;
-}
-
-.sc-list-navbar ul li a{
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
 }
 
 .small-nav-hamb i{
@@ -95,6 +95,7 @@ header h3{
 }
 /* //PORTFOLIO */
 
+/* ABOUT */
 .about{
   color: white;
 }
@@ -113,7 +114,9 @@ header h3{
 .sc-btn-customize i{
   margin-right: 5px;
 }
+/* //ABOUT */
 
+/* FORM */
 form{
   padding-top: 30px;
 }
@@ -128,7 +131,9 @@ form{
   background-color: #1ABC9C;
   border-color: #1ABC9C;
 }
+/* //FORM */
 
+/* FOOTER */
 footer{
   color: white;
 }
@@ -138,7 +143,28 @@ footer{
   background-color: #3a536b;
 }
 
+.sc-footer-top p{
+  font-size: 18px;
+}
+
+.sc-footer-top p span{
+  color: #1ABC9C;
+}
+
+.icon-footer i{
+  margin: 10px;
+  padding: 16px;
+  font-size: 13-5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.icon-footer i:first-child{
+  padding: 16px 20px;
+}
+
 .sc-footer-bottom{
   padding: 30px 0;
   text-align: center;
 }
+/* //FORM */
