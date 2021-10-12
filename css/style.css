@@ -99,6 +99,21 @@ header h3{
   color: white;
 }
 
+.button-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sc-btn-customize{
+  color: white;
+  border: 1px solid white;
+}
+
+.sc-btn-customize i{
+  margin-right: 5px;
+}
+
 form{
   padding-top: 30px;
 }
