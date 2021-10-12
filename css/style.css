@@ -1,51 +1,74 @@
-header{
-  height: 50px;
-  background-color: #2c3e50;
+.sc-bg-blue{
+  background-color: #2d3d4f;
 }
 
-.jambotron, .about{
-  height: 350px;
-  background-color: #1abc9c;
+.sc-bg-green{
+  background-color: #04bb9f;
+}
+
+.sc-py-50{
+  padding: 40px 0;
+}
+
+.sc-container-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+header{
+  height: 80px;
+  color: white;
+}
+
+.sc-jambotron{
+  margin-top: 80px;
+}
+
+.sc-inner-jumbo{
+  background-color: red;
+  width: 800px;
+  max-width: 80%;
+  margin: 0 auto;
+  /* TOGLIERE ALTEZZA */
+  /* height: 300px; */
+}
+
+.sc-box{
+  margin: 10px;
+  /* TOGLIERE ALTEZZA */
+  height: 300px;
+  background-color: blue;
 }
 
 .about{
-  height: 300px;
+  color: white;
 }
 
-.img{
-  width: 100%;
-  height: 250px;
+form{
+  padding-top: 30px;
 }
 
-h2{
-  font-size: 25px;
+.dt-custom-border{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
 }
 
-.block{
-  height: 200px;
+.dt-bg-green{
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
 }
 
-.button{
-  background-color: green;
+footer{
+  color: white;
 }
 
-
-.contact p{
-  border-top: 1px solid #000;
-  padding: 10px;
+.sc-footer-top{
+  color: white;
+  background-color: #3a536b;
 }
 
-.contact:last-child{
-  border-bottom: 1px solid #000;
-  padding-bottom: 40px;
-}
-
-.top-footer{
-  background-color: #3a546d;
-  height: 200px;
-}
-
-.bottom-footer{
-  background-color: #2c3e50;
-  height: 100px;
+.sc-footer-bottom{
+  padding: 30px 0;
+  text-align: center;
 }
